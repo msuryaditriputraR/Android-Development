@@ -64,4 +64,8 @@ class MainActivity : AppCompatActivity() {
         val  cardViewHeroAdapter = CardViewHeroAdapter(list)
         rvHeroes.adapter = cardViewHeroAdapter
     }
+
+    private  fun setActionBarTitle(title: String){
+        supportActionBar?.title = title
+    }
 }
